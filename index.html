@@ -36,10 +36,20 @@
 
 <body class="font-manrope">
     <!--Main Content-->
-
+   <div class="text-5xl font-extrabold text-gray-700 text-center pt-5 bg-gradient-to-br from-red-600 to-orange-300 w-full">
+    TEA HOUSE
+    <div class="text-base w-3/4 mx-auto mt-4">
+        <ul class="flex gap-5 justify-between ">
+            <li class=" hover:text-white"><a href="#home">Home</a></li>
+            <li class=" hover:text-white"><a href="#product">Products</a></li>
+            <li class=" hover:text-white"><a href="#review">Reviews</a></li>
+            <li class=" hover:text-white"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+   </div>
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <!--Header Section-->
-        <header class="lg:flex pt-10 mb-10">
+        <header class="lg:flex pt-10 mb-10" id="home">
             <!--Text Content-->
             <div>
                 <h1 class="text-5xl md:text-7xl">It's good<br>tea time at The<br>Tea House</h1>
@@ -77,7 +87,7 @@
         </header>
 
         <!--Featured Product Section-->
-        <section class="py-8 lg:py-16">
+        <section class="py-8 lg:py-16" id="product">
             <!--Title-->
             <div class="text-center mb-8">
                 <h1 class="text-3xl md:text-5xl font-bold mb-10">Our Featured Products</h1>
@@ -163,7 +173,7 @@
         </section>
 
         <!--Review Section-->
-        <section Class="py-3 lg: py-auto px-10 bg-gradient-to-r from-orange-400 to-red-600 grid grid-cols-1 md:grid-cols-2">
+        <section Class="py-3 lg: py-auto px-10 bg-gradient-to-r from-orange-400 to-red-600 grid grid-cols-1 md:grid-cols-2" id="review">
             <!-- Text Section-->
             <div class="py-10">
                 <h1 class="text-gray-200 font-bold text-5xl mt-20 p-5 md:mt-3">Meet Our Super Clients</h1>
@@ -256,7 +266,7 @@
         </section>
         
     </main>
-<footer class="bg-red-200 ">
+<footer class="bg-orange-100 " id="contact">
     <div class="flex justify-between items-center w-10/12 md:w-9/12 mx-auto mt-5 pt-10">
         <img class="h-10 w-8" src="./images/cup.png" alt="">
         <div class="flex items-center gap-3">
@@ -297,7 +307,7 @@
         <div class="pb-10 pl-10 md:pl-0">
             <h2 class="text-lg font-bold text-gray-700">Subscribe to our <br>newsletter</h2>
             <form class="">
-                <input type="email" placeholder="Email Address" class="bg-red-200">
+                <input type="email" placeholder="Email Address" class="bg-orange-200">
                 <i class="fa-solid fa-angle-right bg-orange-500 font-white items-center rounded-full px-2 py-1.5"></i>
             </form>
             <br>
